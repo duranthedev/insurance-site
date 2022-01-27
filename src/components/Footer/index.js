@@ -70,7 +70,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               JM
             </SocialLogo>
-            <WebsiteRights>Johan Mejia © 2022 All rights reserved.</WebsiteRights>
+            <WebsiteRights>Johan Mejia© 2022 All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/johan.mejia.7393' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
@@ -78,22 +78,22 @@ const Footer = () => {
               <SocialIconLink href='https://www.instagram.com/1ifepeople/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink
+              {/*<SocialIconLink
                 href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
                 target='_blank'
                 aria-label='Youtube'
                 rel='noopener noreferrer'
               >
                 <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
+              </SocialIconLink>*/}
+             {/* <SocialIconLink
                 target='_blank'
                 aria-label='Twitter'
                 href='//www.twitter.com/briandesignz'
               >
                 <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+             </SocialIconLink>*/}
+              <SocialIconLink href='https://www.linkedin.com/in/johan-mejia-74ab9185/' target='_blank' aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
