@@ -19,23 +19,23 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduce Expenses</ServicesH2>
+          <ServicesH2>Life, Home, Car Insurance</ServicesH2>
           <ServicesP>
-            We help reduce your fees and increase your overall revenue.
+            Never rely on GoFundMe again. 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesH2>Start your LLC</ServicesH2>
           <ServicesP>
-            You can access our platform online anywhere in the world.
+          The Cheapest Way to Start a Business Today
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Premium Benefits</ServicesH2>
+          <ServicesH2>Insurance Referral</ServicesH2>
           <ServicesP>
-            Unlock our special membership card that returns 5% cash back.
+          Get competitive rate quotes in 10 minutes or less.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

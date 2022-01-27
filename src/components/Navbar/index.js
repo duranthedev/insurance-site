@@ -95,7 +95,11 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to='https://calendly.com/johan-mejia95/fna?month=2022-01'>Book a call</NavBtnLink>
+              <NavBtnLink 
+              href='https://calendly.com/johan-mejia95/fna?month=2022-01'
+              target='_blank'
+              aria-label='Calendy'
+              rel='noopener noreferrer'>Book a call</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
